@@ -1,0 +1,1 @@
+A complete user authentication web application featuring user registration, login verification, and seamless redirection to a personalized dashboard. Built with a clean UI, form validation, and secure session management.
