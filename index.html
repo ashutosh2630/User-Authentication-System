@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Isometra&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeVault</title>
+</head>
+<body>
+
+<header>
+    <nav>
+    <div class="navlogo">
+        <a href="index.html">CODEVAULT</a>
+    </div>
+        <a style="font-family: 'Barlow', sans-serif;" href="/">Contact Us</a>
+        <a style="font-family: 'Barlow', sans-serif;" href="/">About Us</a>
+        <a style="font-family: 'Barlow', sans-serif;" href="login.html">Login</a>
+        <a style="font-family: 'Barlow', sans-serif;" href="/" class="nav-profile-btn"><div class="avatar-circle"><i class="fa-solid fa-user"></i></div>
+        </a>
+    </nav>
+</header>
+   
+    <div class="main-container">
+        <section class="form-container">
+            <h2 class="form-title">SignUp</h2>
+            <form class="form" id="signup-form">
+                <div class="name-input">
+                    <label for="name-input" class="input-icon"><i class="fa-solid fa-user"></i></label>
+                    <input type="text" id="name-input" name="name" placeholder="Fullname" autocomplete="name" required>
+                </div>
+                <div class="email-input">
+                    <label for="email-input" class="input-icon"><i class="fa-solid fa-envelope"></i></label>
+                    <input type="email" id="email-input" name="email" placeholder="Email" autocomplete="email" required>
+                </div>
+                <div class="password-input">
+                    <label for="password-input" class="input-icon"><i class="fa-solid fa-lock"></i></label>
+                    <input type="password" id="password-input" name="password" placeholder="Password (at least 8 characters)" autocomplete="new-password" minlength="8" required>
+                </div>
+                <div class="confirm-password-input">
+                    <label for="confirm-password-input" class="input-icon"><i class="fa-solid fa-lock"></i></label>
+                    <input type="password" id="confirm-password-input" name="confirm-password" placeholder="Confirm password" autocomplete="new-password" required>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit" id="submit-btn">SignUp</button>
+                </div>
+                <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+                <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="content-container">
+            <h2>CODEVAULT</h2>
+            <img src="https://i.pinimg.com/736x/95/45/be/9545be86bd2ec00a332c21fc21ac71f3.jpg" alt="Oasis image">
+            
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

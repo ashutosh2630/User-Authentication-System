@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Isometra&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+<header>
+    <nav>
+    <div class="navlogo">
+        <a href="index.html">CODEVAULT</a>
+    </div>
+    <div class="profile-container" id="profileContainer">
+    <div class="profile-circle" id="profileCircle">
+        <span id="avatarInitial"></span>
+    </div>
+    <div class="profile-dropdown" id="profileDropdown">
+        <div class="user-details">
+            <p class="user-name" id="dropdownName"></p>
+            <p class="user-email" id="dropdownEmail"></p>
+        </div>
+        <hr class="dropdown-divider">
+        <button type="button" class="dropdown-logout-btn" id="logoutBtn">Logout</button>
+    </div>
+</div>
+    </nav>
+</header>
+<div class="main-container">
+<div class="page1">
+    <div class="hero-img-container">
+<img  class='hero-img' src="hero-img.png">
+</div>
+<div class="content">
+<h2 class="pg-heading">CODEVAULT</h2>
+<span class="pg-content">Code Vault is a specialized cybersecurity and developer-tooling company operating in the enterprise software security and secrets management sector. Built specifically for software engineers, research teams, and security-focused organizations, Code Vault functions as a digital safety deposit box for proprietary source code, algorithmic logic, sensitive configuration files, and private code snippets.<br>
+In modern software development, sensitive logic—such as proprietary pricing algorithms, cryptographic keys, authentication middleware, database connection scripts, and unfinished patches—often ends up fragmented across personal text editors, unsecured notes, or public repositories. Code Vault solves this vulnerability by providing a dedicated, encrypted repository where developers can securely deposit, organize, lock, and retrieve their code assets without exposing intellectual property.</span>
+
+<h5 class="pg-heading2">Core Capabilities and Supported Assets</h5>
+
+<span class="pg-content">Code Vault provides multi-language syntax parsing and zero-leak storage for all primary programming and markup assets:
+Frontend & Styling Logic: Secure storage for intricate CSS rule sets, SCSS libraries, Tailwind configurations, design tokens, and private UI layout routines.<br>
+Modern Scripting & Dynamic Languages: Support for JavaScript (ES6+), TypeScript, Python, Ruby, and PHP, including private automation scripts, scraping modules, internal microservice code, and machine learning model configurations.<br>
+Enterprise & Systems Programming: Safe isolation for Java, C++, C, C#, Go, and Rust components, such as low-level network drivers, multithreaded processing blocks, and high-performance financial computation engines.<br>
+Environment & Config Secrets: Isolated storage for .env templates, Kubernetes secret YAMLs, Dockerfiles, and API integration headers, preventing accidental leaks to public version control platforms.</span>
+</div>
+</div>
+<div class="page2">
+    <p class="pg-heading3">Supported Languages:</p><br><br>
+    <div class="card-container">
+        <div class="card"><i class="fa-brands fa-html5"></i></div>
+        <div class="card"><i class="fa-brands fa-css3-alt"></i></div>
+        <div class="card"><i class="fa-brands fa-js"></i></div>
+        <div class="card"><i class="fa-brands fa-python"></i></div>
+        <div class="card"><i class="fa-brands fa-java"></i></div>
+        <div class="card"><i class="fa-brands fa-php"></i></div>
+        <div class="card"><i class="fa-brands fa-c"></i></div>
+        <div class="card"><i class="fa-brands fa-tailwind-css"></i></div>
+        <div class="card"><i class="fa-brands fa-bootstrap"></i></div>
+        <div class="card"><i class="fa-brands fa-react"></i></div>
+        <div class="card"><i class="fa-brands fa-node"></i></div>
+        <div class="card"><i class="fa-brands fa-typescript"></i></div>
+        <div class="card"><i class="fa-brands fa-mdb"></i></div>
+        <div class="card"><i class="fa-brands fa-angular"></i></div>
+        <div class="card"><i class="fa-brands fa-golang"></i></div>
+    </div>
+</div>
+<div class="page3">
+<section class="vault-page">
+  <div class="vault-header">
+    <h2>Secure Your Snippets in Code Vault</h2>
+    <p class="vault-text">Store, encrypt, and access your code snippets from anywhere.</p>
+  </div>
+
+  <div class="vault-container">
+    <div class="snippet-box">
+      <div class="snippet-top">
+        <span>snippet.js</span>
+        <button type="button" class="copy-btn">Copy</button>
+      </div>
+      <textarea placeholder="// Paste your secret code snippet here..." rows="6"></textarea>
+      <button type="submit" class="save-btn">Lock in Vault</button>
+    </div>
+
+    <div class="vault-features">
+      <div class="feature-item">🔒 End-to-End Encrypted</div>
+      <div class="feature-item">⚡ One-Click Copy & Share</div>
+      <div class="feature-item">☁️ Cloud Backup</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">Documentation</a>
+      <a href="#">Privacy</a>
+    </div>
+    <p class="footer-text">&copy; 2026 Code Vault. Keep your code safe.</p>
+  </footer>
+</section>
+</div>
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>
