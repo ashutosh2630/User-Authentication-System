@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Isometra&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
     <title>CodeVault</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
         <a href="index.html">CODEVAULT</a>
     </div>
         <div class="nav-right">
-            <a style="font-family: 'Barlow', sans-serif;" href="login.html">Login</a>
+            <a style="font-family: 'Barlow', sans-serif;" href="index.html">SignUp</a>
             <a style="font-family: 'Barlow', sans-serif;" href="/" class="nav-profile-btn"><div class="avatar-circle"><i class="fa-solid fa-user"></i></div>
             </a>
         </div>
@@ -27,8 +27,8 @@
    
     <div class="main-container">
         <section class="form-container">
-            <h2 class="form-title">SignUp</h2>
-            <form class="form" id="signup-form">
+            <h2 class="form-title">Login</h2>
+            <form class="form" id="login-form">
                 <div class="name-input">
                     <label for="name-input" class="input-icon"><i class="fa-solid fa-user"></i></label>
                     <input type="text" id="name-input" name="name" placeholder="Fullname" autocomplete="name" required>
@@ -40,26 +40,20 @@
                 <div class="password-input">
                     <label for="password-input" class="input-icon"><i class="fa-solid fa-lock"></i></label>
                     <input type="password" id="password-input" name="password" placeholder="Password (at least 8 characters)" autocomplete="new-password" minlength="8" required>
-                </div>
-                <div class="confirm-password-input">
-                    <label for="confirm-password-input" class="input-icon"><i class="fa-solid fa-lock"></i></label>
-                    <input type="password" id="confirm-password-input" name="confirm-password" placeholder="Confirm password" autocomplete="new-password" required>
-                </div>
+                </div>               
                 <div class="submit-btn">
-                    <button type="submit" id="submit-btn">SignUp</button>
+                    <button type="submit" id="submit-btn">Login</button>
                 </div>
-                <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
                 <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
             </form>
         </section>
 
         <section class="content-container">
             <h2>CODEVAULT</h2>
-            <img src="https://i.pinimg.com/736x/95/45/be/9545be86bd2ec00a332c21fc21ac71f3.jpg" alt="Oasis image">
-            
+            <img src="https://i.pinimg.com/736x/95/45/be/9545be86bd2ec00a332c21fc21ac71f3.jpg" alt="Oasis image"> 
+
         </section>
     </div>
-    <script src="script.js"></script>
+    <script src="login.js"></script>
 </body>
-
 </html>
